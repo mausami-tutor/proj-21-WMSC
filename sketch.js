@@ -36,6 +36,9 @@ function draw() {
 		wall.shapeColor=color(0,255,0);
 	}
   }
+textSize(16)
+fill("white")
+text("The damage is: " +Math.round(damage),600,370)
   drawSprites();
  
 }
